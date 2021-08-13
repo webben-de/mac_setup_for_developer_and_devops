@@ -14,6 +14,10 @@ brew install tree
 brew install zsh
 brew install htop
 brew install glances
+# TODO List on CLI
+brew install taskwarrior-tui
+# time tracking on cli
+brew install timewarrior
 
 
 # For Adobe XD f.e.
@@ -26,7 +30,7 @@ brew install --cask principle
 # burn images to a usb drive
 #brew install --cask balenaetcher
 
-# Control multiple Mac with just one Keyboard / Mouse
+# Control multiple Mac's with just one Keyboard / Mouse
 brew install --cask barrier
 
 # HTTP Interception and Security Forensic
@@ -65,13 +69,17 @@ brew install --cask telegram
 # Take recordings of shell sessions
 brew install asciinema
 
-# Another Shell
-brew install zsh
-
 #Nodejs
 brew install node@14 #LTS
+# Maven
+brew install maven
 
-# TODO List on CLI
-brew install taskwarrior-tui
-# time tracking on cli
-brew install timewarrior
+
+
+# Another Shell
+brew install zsh
+# Oh my ZSH (Plugin System for zsh)
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+# Powerlevel 10k (Smart Shell Addons)
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
+echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
