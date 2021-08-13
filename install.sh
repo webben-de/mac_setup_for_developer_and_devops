@@ -14,6 +14,10 @@ brew install tree
 brew install zsh
 brew install htop
 brew install glances
+# Clipboard manager
+brew install maccy 
+# Streaming
+# brew install obs 
 # TODO List on CLI
 brew install taskwarrior-tui
 # time tracking on cli
@@ -36,7 +40,7 @@ brew install --cask barrier
 # HTTP Interception and Security Forensic
 brew install --cask burp-suite
 brew install --cask owasp-zap
-brew install postman maccy obs 
+brew install postman 
 brew install insomnia
 
 brew install docker
